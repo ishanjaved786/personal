@@ -75,6 +75,13 @@ a:hover {
   overflow: hidden;
 }
 
+#logo{
+  background: #fff;
+  padding: 3px 18px;
+  border-radius: 35px 35px 35px 0;
+  width: 200px;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -241,6 +248,12 @@ a:hover {
 .list-ico span {
   color: #0078ff;
   margin-right: 10px;
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+.hire img {
+  width: 51px;
 }
 
 /*------/ Ico Circle /------*/
@@ -255,6 +268,16 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
+}
+
+a.ico-circle2 {
+  border: 4px solid #3678ff;
+  padding: 5px 6px;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  margin: 0px;
+  display: inline-block;
 }
 
 /*------/ Owl Carousel /------*/
