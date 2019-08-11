@@ -114,4 +114,20 @@
 		}
 	});
 
+	$('.filter-tec li').click(function(){
+
+	let tech = $(this).find('span').attr('data-tech');
+	if(tech == 'all' ){  $('.filter').fadeIn();  }else if( tech != '' ){
+		$('.filter').each(function(){
+			let filval = $(this).attr('data-filter');
+			if(filval != tech){
+				$(this).fadeOut();
+			}else{
+				$(this).fadeIn();
+			}
+
+		});
+	}
+	});
+
 })(jQuery);
