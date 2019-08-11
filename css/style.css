@@ -256,6 +256,23 @@ a:hover {
   width: 51px;
 }
 
+ul.filter-tec {
+  display: contents;
+}
+
+ul.filter-tec li {
+  list-style: none;
+  float: left;
+  background: #e8e8e8;
+  padding: 7px 15px;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-sec {
+  margin-bottom: 20px;
+  display: flex;
+}
 /*------/ Ico Circle /------*/
 
 .ico-circle {
@@ -799,6 +816,8 @@ a.ico-circle2 {
 .work-img {
   display: block;
   overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .work-img img {
