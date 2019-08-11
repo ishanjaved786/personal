@@ -822,6 +822,7 @@ a.ico-circle2 {
 
 .work-img img {
   transition: all 1s;
+  padding-top: 15px;
 }
 
 .work-content {
