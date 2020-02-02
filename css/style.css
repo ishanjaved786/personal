@@ -1308,4 +1308,9 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+  ul.filter-tec {
+    display: inline-block;
+    margin: 0;
+    padding: 0px 16px;
+}
 }
